@@ -1,6 +1,6 @@
 # NLW Connect 2025
 
-Projeto desenvolvido durante o evento **NLW Connect 2025** da Rocketseat, com foco em criar um **sistema de indicação** utilizando tecnologias modernas como **React, Next.js, Node.js e Redis**.
+Projeto desenvolvido durante o evento **NLW Connect 2025** da Rocketseat, com foco em criar um **sistema de indicação** utilizando tecnologias modernas como **React e Next.js**.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -11,7 +11,7 @@ Projeto desenvolvido durante o evento **NLW Connect 2025** da Rocketseat, com fo
 - **PostCSS**
 - **React Hook Form** + **Zod**
 - **Orval** para automação de requisições HTTP
-- **Node.js** com **Express**
+- **Node.js**
 - **PostgreSQL** com **Docker**
 - **Redis**
 - **Biome** para formatação e linting
