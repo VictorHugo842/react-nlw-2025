@@ -1,75 +1,63 @@
-<<<<<<< HEAD
-# NLW Connect 2025 - ReactJS
+# NLW Connect 2025
 
-Este projeto foi desenvolvido como parte da **trilha de ReactJS** do **NLW Connect 2025** da **Rocketseat**. O objetivo foi criar uma aplicação moderna usando **React**, **Next.js**, **Vite**, **TypeScript**, **Tailwind CSS** e **Node.js**.
+Projeto desenvolvido durante o evento **NLW Connect 2025** da Rocketseat, com foco em criar um **sistema de indicação** utilizando tecnologias modernas como **React, Next.js, Node.js e Redis**.
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias Utilizadas
 
-- **Vite** + **TypeScript**
-- **React** + **Tailwind CSS**
-- **Next.js**
-- **Node.js**
+- **React** com **Next.js**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **PostCSS**
 - **React Hook Form** + **Zod**
+- **Orval** para automação de requisições HTTP
+- **Node.js** com **Express**
+- **PostgreSQL** com **Docker**
+- **Redis**
+- **Biome** para formatação e linting
 
-## 🛠 Funcionalidades
+## ⚙️ Funcionalidades Implementadas
 
-- **Configuração do projeto** com Vite e TypeScript
-- **Componentização** com React e Tailwind CSS
-- **Páginas dinâmicas** com Next.js
-- **Validação de formulários** com React Hook Form e Zod
+### 🔧 Configuração Inicial
+- Configuração do projeto com **Vite + TypeScript**
+- Integração do **Tailwind CSS** e **Biome**
+- Organização da estrutura do projeto
+- Criação dos primeiros componentes seguindo o Style Guide
+- Desenvolvimento da interface da página principal
 
-## 💡 Como rodar
+### 🎨 Componentização e Formulários
+- Implementação do sistema de **componentização**
+- Criação da **página de convite** e seus componentes
+- Implementação do **formulário de registro** com **React Hook Form**
+- Validações utilizando **Zod** para melhor experiência do usuário
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/nlw-connect-2025-reactjs.git
-Instale as dependências:
+### 🔗 Integração com Backend
+- Geração de **funções e tipagens** do cliente HTTP com **Orval**
+- Criação de **rota dinâmica** no Next.js para obter o ID do inscrito via URL
+- Implementação do **parâmetro de busca "referrer"** para sistema de indicação
+- Uso do cliente HTTP para:
+  - Buscar e registrar dados no banco
+  - Exibir **ranking de inscritos**
+  - Gerar **links de indicação**
 
-bash
-Copiar
-npm install
-Inicie o projeto:
-
-bash
-Copiar
-npm run dev
-Acesse no navegador: http://localhost:3000
-
-📣 Agradecimentos
-Agradeço à Rocketseat pela formação incrível durante o NLW Connect 2025!
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+## 📌 Como Executar o Projeto
 
 ```bash
+# Clone este repositório
+git clone https://github.com/VictorHugo842/react-nlw-2025.git
+
+# Acesse a pasta do projeto
+cd react-nlw-2025
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+O projeto será iniciado em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🏆 Certificação
+🔗 [Link para o certificado](https://app.rocketseat.com.br/certificates/81b13eea-e54e-4446-b510-ea10cd948ea6)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> master
+#NLWConnect2025 #Rocketseat #ReactJS #NextJS #NodeJS #TailwindCSS #Vite #DesenvolvimentoWeb
