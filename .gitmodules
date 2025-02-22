@@ -1,0 +1,3 @@
+[submodule "nlw-connect-node"]
+	path = nlw-connect-node
+	url = https://github.com/rocketseat-education/nlw-connect-node.git
