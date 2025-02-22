@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variaveis globais CSS */
+:root {
+    --font-heading: var(--font-oxanium);
+    --font-sans: var(--font-montserrat);
+  }
