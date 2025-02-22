@@ -36,12 +36,3 @@ Acesse no navegador: http://localhost:3000
 
 📣 Agradecimentos
 Agradeço à Rocketseat pela formação incrível durante o NLW Connect 2025!
-
-yaml
-Copiar
-
----
-
-Este **README** é bem direto, com as informações essenciais para quem quiser entender rapidamente o que foi feito e como rodar o projeto. Fica mais compacto, sem perder o foco. O que acha? 😄
-
-
